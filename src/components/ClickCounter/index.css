@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_heading {
+  font-size: 45px;
+  font-weight: 600;
+  color: #2d3a35;
+  text-align: center;
+}
+.counter {
+  font-size: 45px;
+  font-weight: 600;
+  color: #c20a72;
+  /* text-align: center; */
+}
+.middle_heading {
+  font-size: 35px;
+  /* font-weight: 600; */
+  color: #2d3a35;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  border-style: none;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg_container {
+    width: 60vw;
+  }
+  .middle_heading {
+    text-align: center;
+    /* font-weight: 600; */
+  }
+}
